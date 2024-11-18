@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    align-items: center;
+    display: flex;
+    min-width: 1280px;
+    height: 60px;
+    justify-content:space-between;
+    background-color: rgb(43, 85, 113);
+}
+.container ul li{
+   
+   margin-left: 20px;
+   margin-right: 10px;
+    list-style: none;
+    color: white;
+   
+}
+.container ul{
+    display: flex;
+    
+}
+.name{
+    justify-content: space-evenly;
+}
+
+.link_color{
+    color: white;
+
+}
+.btn{
+    border-radius: 20px;
+    background-color: rgb(185, 210, 202);
+    width: 90px;
+    height: 38px;
+}
+.web_body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-width: 1080px;
+    min-height: 900px;
+    justify-content: center ;
+}
+.signup{
+
+    display: flex;
+    height: fit-content;
+    margin: 30px;
+    margin-top: 102px;
+    border: 1px solid rgb(230, 212, 212);
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 200);
+   padding-bottom: 40px;
+   padding-top: 40px;
+
+
+
+}
+.form_signup{
+    display: flex;
+    flex-direction: column;
+    min-width: 450px;
+    max-width: 480px;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.text_inut_box{
+width: 320px;
+height: 28px;
+border-radius: 5px;
+border: 0.1px solid rgb(221, 200, 200);
+
+}
+.form_signup ul li{
+    
+    list-style: none;
+    color: black;
+    margin-top: 15px;
+}
+.form_signup ul{
+    margin: 20px;
+}
+.btn1{
+    display: flex;
+    width: 320px;
+height: 28px;
+border-radius: 5px;
+background-color: rgb(52, 52, 171);
+align-items: center;
+justify-content: center;
+color: white;
+
+}
+.clr_white{
+color: white;
+}
+.home_page{
+display: flex;
+min-height: 400px;
+min-width: 600px;
+flex-direction: row;
+
+
+}
+.classification{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: aquamarine;
+    width: 650px;
+    min-height: 590px;
+    border-radius: 15px;
+    transition: width 2s, height 2s, transform 2s;
+    
+}
+.classification:hover{
+    width: 670px;
+    min-height: 610px;
+}
+.flexbox{
+    width: 260px;
+    height: 290px;
+    background-color: aquamarine;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    transition: width 2s, height 2s, transform 2s;
+    
+}
+.flexbox:hover{
+    width: 280px;
+    height: 280px;
+}
+.flex-box-container{
+    display: flex;
+}
+.just_once{
+   
+    min-height: 100px;
+    min-width: 200px;
+}
+.flipakart{
+    background-image: url(/e-commerce/src/Images/-original-imahywudnnfshaw6.webp);
+}
+.temp{
+    display: flex;
+    height: 20px;
+    min-width: 250px;
+    border: 1px solid black;
+    margin: 1px;
+}
+.temp1{
+    display: flex;
+}
+.Description{
+    display: flex;
+    margin: 20px;
+    height: 500px;
+    min-width: 410px;
+    background-color: beige;
+    border-radius: 20px;
+    padding: 10px;
+}
+.form_add ul li{
+    display: flex;
+    list-style: none;
+    margin: 2px;
+
+}
+.form_add {
+    flex-direction: column;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn-2{
+    margin: 20px;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 10px;   
+  
+
+
+}
+.btn-1{
+    margin-top: 10px;
+    background-color: rgb(171, 181, 219);
+    width: 50px;
+    height: 25px;
+    border-radius: 7px;
+}
+
+.margin{
+    margin: 30px;
+
+}
